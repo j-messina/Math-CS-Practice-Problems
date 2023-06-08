@@ -4,4 +4,4 @@
 <p>Find the sum of all the multiples of <b>3</b> or <b>5</b> below <b>1000</b>.</p>
 <hr>
 
-Problem URL: https://projecteuler.net/problem=1
+URL: https://projecteuler.net/problem=1
