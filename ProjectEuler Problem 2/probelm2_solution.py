@@ -13,3 +13,39 @@
 # 3: Modify it to take an upper limit as a parameter
 # example - function(number_here) means "Sum the even-valued fibonacci below number_here's value
 
+# The fibonacci sequence has TWO values that must be tracked at all times: the two previous numbers in the sequence
+# What is fuzzy to picture is the exact point at which the current number in the sequence becomes the first previous
+# For now, I am envisioning that change as the moment an "update" to the sequence is called
+
+# Naming Conventions: For now, I will use the following rules of thumb for naming different entities
+# Variables: Starts with lowercase, is camelCased
+# Functions: Starts with uppercase, uses underscores
+# Classes: TBD, not using them right now
+
+# This function takes the current and previous Fibonacci numbers, calculates the next number
+# in the sequence, then returns a touple of the new number and the formerly-current number
+# In essence:  If input is (A, B) --> Output is (A+B, A)
+def Fibonacci_Sequence_Update(newerNum, olderNum):
+    return newerNum + olderNum, newerNum
+
+# This function takes an upper limit for the value in the fibonacci sequence, and sums all even
+# fibonacci sequence numbers up to that point
+# Also, call it a pun, call it simplifying...
+# whatever you call it, I'm combining "Fibonacci sequence numbers" into "Fevens"
+
+def Sum_Even_Fibonacci_Numbers(upperSequenceLimit):
+    sumOfFevens = 0
+    olderFibNum = 1
+    newerFibNum = 2
+    # the mathemetizing starts here; oh and so does the while loop
+    while(newerFibNum <= upperSequenceLimit):
+        if (newerFibNum % 2 == 0):
+            sumOfFevens += newerFibNum
+        newerFibNum, olderFibNum = Fibonacci_Sequence_Update(newerFibNum, olderFibNum)
+    # end of while loop
+    return sumOfFevens
+
+# End of function defining
+# -----------------------------------------------------------------------------------
+upperFibonacciSequenceLimit = 4000000
+print("The sum of all even numbers in the Fibonacci sequence under", upperFibonacciSequenceLimit,"is", Sum_Even_Fibonacci_Numbers(upperFibonacciSequenceLimit))
