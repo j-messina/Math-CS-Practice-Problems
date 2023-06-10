@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Moved some files and directories around to reorganize; key to note is the .github folder">
+      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 3/problem3_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 3/problem3_solution.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a1daa934-127d-48f1-be18-5dbead763b67" />
+        <option name="url" value="https://github.com/j-messina/Math-CS-Practice-Problems.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QtpDBzSfqGxWkXpESTM3WzynDt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/jwmes/Documents/Coding/GitHub/Math-CS-Practice-Problems/ProjectEuler Problems 1-5/ProjectEuler Problem 5",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.splitter.proportion": "0.24847251"
+  }
+}]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Math-CS-Practice-Problems" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Math-CS-Practice-Problems" />
+      </console-settings>
+    </option>
+    <option name="myUseExistingConsole" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler Problems 1-5\ProjectEuler Problem 5" />
+      <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler Problem 4" />
+      <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler Problem 3" />
+      <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler Problem 2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler Problems 1-5" />
+      <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\.github" />
+      <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.problem3_solution (1)">
+    <configuration name="probelm2_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Math-CS-Practice-Problems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python311\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11 (Practicing Computer Graphics with PyGame and OpenGL)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler Problem 2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler Problem 2/probelm2_solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="problem1_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Math-CS-Practice-Problems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python311\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler Problem 1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler Problem 1/problem1_solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="problem3_solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Math-CS-Practice-Problems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 3/problem3_solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="problem3_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Math-CS-Practice-Problems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler Problem 3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler Problem 3/problem3_solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.problem3_solution (1)" />
+        <item itemvalue="Python.probelm2_solution" />
+        <item itemvalue="Python.problem3_solution" />
+        <item itemvalue="Python.problem1_solution" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="" />
+      <created>1686182610172</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686182610172</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Testing this as first commit from PyCharm. Made some edits to the Problem 1 readme, including making all the numbers just bold because PyCharm's preview wasn't interpreting the $'s correctly. Also looking to implement a spoiler formatting for the problem solution, just a quality of life thing">
+      <created>1686188034794</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686188034794</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removed spoiler tag because it wasn't doing anything">
+      <created>1686188824254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686188824254</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Removed spoiler tag because it wasn't doing anything">
+      <created>1686189019092</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686189019092</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Completed and tested the code for Problem 1 in Python.">
+      <created>1686189642717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686189642717</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created Problem 2 sub-folder, created and formatted Problem 2's README, removed &quot;Problem&quot; from all Problem READMEs">
+      <created>1686190347553</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686190347553</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Trying to remove the .idea/ directory from the repo because its just stuff specific to PyCharm, apparently">
+      <created>1686191357758</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686191357758</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Seems like I was able to hide the unnecessary directories, now on to Problem #2. I've typed out a rough plan, starting with getting some sort of fibonacci generator off the ground">
+      <created>1686345990117</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686345990117</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Okay jk about the .idea folder, it showed back up on GitHub with the last commit; this time trying a new .gitignore file to hopefully omit it properly from future pushes">
+      <created>1686346248315</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686346248315</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Okay the last commit also didn't work, so I deleted the folder on GitHub. Let's see if I broke something">
+      <created>1686346414447</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686346414447</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Alright looks like .info folder has not reappeared this time after deleting it on GitHub and then pushing another commit">
+      <created>1686346507181</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686346507181</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Alright, made a ton of progress on Problem #2, but I can't get the code to run to actually test it because of some issue with PyCharm. THANKS PyCharm">
+      <created>1686351029315</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686351029315</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fixed the issue with PyCharm not running the program. Had to go to Run settings, and toggle an option on. Also, finished with Problem #2, onto Problem #3!">
+      <created>1686351803249</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686351803249</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Set up formatting, basic shape for the Problem #3 folder, also made a Problem #4 folder to try some modifications with .md files">
+      <created>1686352692105</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686352692105</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added test.md to Project 4 folder, and put some test text in it">
+      <created>1686352901060</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1686352901060</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Changed filename from &quot;test.md&quot; to &quot;READ.md&quot;">
+      <created>1686353033976</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686353033976</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Changed filename from &quot;READ.md&quot; to &quot;readme.md&quot;">
+      <created>1686353134415</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686353134415</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Changed filename from &quot;readme.md&quot; &quot;readme.problem4.md&quot;">
+      <created>1686353289033</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686353289033</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Changed filename from &quot;readme.problem4.md&quot; to &quot;problem4.readme.md&quot;">
+      <created>1686353400788</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686353400788</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Changed filename from &quot;problem4.readme.md&quot; to &quot;a_readme.md&quot;">
+      <created>1686353546836</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1686353546836</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Changed filename from &quot;a_readme.md&quot; to &quot;readme4.md&quot;">
+      <created>1686353656211</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1686353656211</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Changed &quot;readme4.md&quot; filename to &quot;A README.md&quot;&#10;Also made a new .md file">
+      <created>1686354989292</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1686354989292</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added some notes to A README.md, and testing some maybe commands with the other .md">
+      <created>1686355255040</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1686355255040</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Changed filename README-2.md">
+      <created>1686355505221</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1686355505221</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Moved some files and directories around to reorganize; key to note is the .github folder">
+      <created>1686392025097</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1686392025097</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testing this as first commit from PyCharm. Made some edits to the Problem 1 readme, including making all the numbers just bold because PyCharm's preview wasn't interpreting the $'s correctly. Also looking to implement a spoiler formatting for the problem solution, just a quality of life thing" />
+    <MESSAGE value="Removed spoiler tag because it wasn't doing anything" />
+    <MESSAGE value="Completed and tested the code for Problem 1 in Python." />
+    <MESSAGE value="Created Problem 2 sub-folder, created and formatted Problem 2's README, removed &quot;Problem&quot; from all Problem READMEs" />
+    <MESSAGE value="Trying to remove the .idea/ directory from the repo because its just stuff specific to PyCharm, apparently" />
+    <MESSAGE value="Seems like I was able to hide the unnecessary directories, now on to Problem #2. I've typed out a rough plan, starting with getting some sort of fibonacci generator off the ground" />
+    <MESSAGE value="Okay jk about the .idea folder, it showed back up on GitHub with the last commit; this time trying a new .gitignore file to hopefully omit it properly from future pushes" />
+    <MESSAGE value="Okay the last commit also didn't work, so I deleted the folder on GitHub. Let's see if I broke something" />
+    <MESSAGE value="Alright looks like .info folder has not reappeared this time after deleting it on GitHub and then pushing another commit" />
+    <MESSAGE value="Alright, made a ton of progress on Problem #2, but I can't get the code to run to actually test it because of some issue with PyCharm. THANKS PyCharm" />
+    <MESSAGE value="Fixed the issue with PyCharm not running the program. Had to go to Run settings, and toggle an option on. Also, finished with Problem #2, onto Problem #3!" />
+    <MESSAGE value="Set up formatting, basic shape for the Problem #3 folder, also made a Problem #4 folder to try some modifications with .md files" />
+    <MESSAGE value="Added test.md to Project 4 folder, and put some test text in it" />
+    <MESSAGE value="Changed filename from &quot;test.md&quot; to &quot;READ.md&quot;" />
+    <MESSAGE value="Changed filename from &quot;READ.md&quot; to &quot;readme.md&quot;" />
+    <MESSAGE value="Changed filename from &quot;readme.md&quot; &quot;readme.problem4.md&quot;" />
+    <MESSAGE value="Changed filename from &quot;readme.problem4.md&quot; to &quot;problem4.readme.md&quot;" />
+    <MESSAGE value="Changed filename from &quot;problem4.readme.md&quot; to &quot;a_readme.md&quot;" />
+    <MESSAGE value="Changed filename from &quot;a_readme.md&quot; to &quot;readme4.md&quot;" />
+    <MESSAGE value="Changed &quot;readme4.md&quot; filename to &quot;A README.md&quot;&#10;Also made a new .md file" />
+    <MESSAGE value="Added some notes to A README.md, and testing some maybe commands with the other .md" />
+    <MESSAGE value="Changed filename README-2.md" />
+    <MESSAGE value="Moved some files and directories around to reorganize; key to note is the .github folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved some files and directories around to reorganize; key to note is the .github folder" />
+  </component>
+</project>
