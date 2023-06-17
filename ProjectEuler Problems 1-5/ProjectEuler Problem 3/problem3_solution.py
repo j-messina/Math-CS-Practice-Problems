@@ -10,12 +10,9 @@
 #         then check if its factor pair partner is prime --> first success is returned
 #       - approach 2: decrements from product/3 rounded down, checks if number is prime
 #         --> if so, return it
-def isPrime(num):
-    for x in range(2, int(num/3)):
-        if num % x == 0:
-            return False
-    return True
-
+import sys
+sys.path.append("../..")
+from Algorithms.isPrime import *
 
 def findHighestPrimeFactor(inputValue):
     largestPrimeFactorFound = 1

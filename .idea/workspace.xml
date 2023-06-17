@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Finished Problem 3; had most of the algorithm planned out, but I didn't account for the smaller divisor to be a potential prime until seeing the results return an obviously wrong answer of 1">
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Finished problem 4, created new folder for more ProjectEuler problems; if anyone ever reads this, I salute you">
+      <change afterPath="$PROJECT_DIR$/Algorithms/isPrime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 5/problem5_solution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 4/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 4/problem4_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 4/problem4_solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 3/problem3_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 3/problem3_solution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
       <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.problem4_solution">
+  <component name="RunManager" selected="Python.problem5_solution">
     <configuration name="probelm2_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Math-CS-Practice-Problems" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,28 +98,6 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler Problem 2/probelm2_solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="problem1_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Math-CS-Practice-Problems" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Python311\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler Problem 1" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler Problem 1/problem1_solution.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -188,13 +167,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="problem5_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Math-CS-Practice-Problems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 5/problem5_solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.problem4_solution" />
+        <item itemvalue="Python.problem5_solution" />
         <item itemvalue="Python.problem3_solution (1)" />
+        <item itemvalue="Python.problem4_solution" />
         <item itemvalue="Python.probelm2_solution" />
         <item itemvalue="Python.problem3_solution" />
-        <item itemvalue="Python.problem1_solution" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686394216354</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Finished problem 4, created new folder for more ProjectEuler problems; if anyone ever reads this, I salute you">
+      <created>1687021137976</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1687021137976</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -421,6 +428,7 @@
     <MESSAGE value="Changed filename README-2.md" />
     <MESSAGE value="Moved some files and directories around to reorganize; key to note is the .github folder" />
     <MESSAGE value="Finished Problem 3; had most of the algorithm planned out, but I didn't account for the smaller divisor to be a potential prime until seeing the results return an obviously wrong answer of 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Problem 3; had most of the algorithm planned out, but I didn't account for the smaller divisor to be a potential prime until seeing the results return an obviously wrong answer of 1" />
+    <MESSAGE value="Finished problem 4, created new folder for more ProjectEuler problems; if anyone ever reads this, I salute you" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished problem 4, created new folder for more ProjectEuler problems; if anyone ever reads this, I salute you" />
   </component>
 </project>
