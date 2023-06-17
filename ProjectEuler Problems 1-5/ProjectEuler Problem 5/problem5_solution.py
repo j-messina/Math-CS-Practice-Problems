@@ -17,12 +17,14 @@ from Algorithms.isPrime import *
 #   need one 5 to cover 5, 10, 15, 20
 #   need to include other primes: 19, 17, 13, 11, 7
 #   results with: 16 * 9 * 5 * 19 * 17 * 13 * 11 * 7
-smallestProduct = 16 * 9 * 5 * 19 * 17 * 13 * 11 * 7
-for x in range(2,21):
-    if smallestProduct % x != 0:
-        print("Not correct at", x)
+# smallestProduct = 16 * 9 * 5 * 19 * 17 * 13 * 11 * 7
+# for x in range(2,21):
+#     if smallestProduct % x != 0:
+#         print("Not correct at", x)
+#
+# print("Smallest product is:", smallestProduct)
 
-print("Smallest product is:", smallestProduct)
+#----------------------------------------------------------------------------------------------------
 
 # For a more general solution, we could use the range to check each number for if it is prime
 # We can also develop a dictionary for numbers counting up from 1, tracking whether each of them is prime or not
