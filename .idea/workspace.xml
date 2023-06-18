@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Small edits to Problem 5 solution">
-      <change afterPath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 6/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 6/problem6_solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 7/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 7/problem7_solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Solved problem 6, started problem 7">
+      <change beforePath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 7/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 7/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 7/problem7_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 7/problem7_solution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,29 +80,7 @@
       <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.problem6_solution">
-    <configuration name="probelm2_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Math-CS-Practice-Problems" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Python311\python.exe" />
-      <option name="SDK_NAME" value="Python 3.11 (Practicing Computer Graphics with PyGame and OpenGL)" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler Problem 2" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler Problem 2/probelm2_solution.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.problem7_solution">
     <configuration name="problem3_solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Math-CS-Practice-Problems" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,13 +165,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="problem7_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Math-CS-Practice-Problems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 7/problem7_solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.problem7_solution" />
         <item itemvalue="Python.problem6_solution" />
         <item itemvalue="Python.problem5_solution" />
         <item itemvalue="Python.problem3_solution (1)" />
         <item itemvalue="Python.problem4_solution" />
-        <item itemvalue="Python.probelm2_solution" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687066911563</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Solved problem 6, started problem 7">
+      <created>1687067815137</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1687067815137</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,7 +430,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created Problem 2 sub-folder, created and formatted Problem 2's README, removed &quot;Problem&quot; from all Problem READMEs" />
     <MESSAGE value="Trying to remove the .idea/ directory from the repo because its just stuff specific to PyCharm, apparently" />
     <MESSAGE value="Seems like I was able to hide the unnecessary directories, now on to Problem #2. I've typed out a rough plan, starting with getting some sort of fibonacci generator off the ground" />
     <MESSAGE value="Okay jk about the .idea folder, it showed back up on GitHub with the last commit; this time trying a new .gitignore file to hopefully omit it properly from future pushes" />
@@ -452,6 +454,7 @@
     <MESSAGE value="Moved isPrime algorithm to new Algorithms folder, added lots of code for problem 5" />
     <MESSAGE value="Finished problem 5, fixed small error in isPrime function" />
     <MESSAGE value="Small edits to Problem 5 solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small edits to Problem 5 solution" />
+    <MESSAGE value="Solved problem 6, started problem 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved problem 6, started problem 7" />
   </component>
 </project>
