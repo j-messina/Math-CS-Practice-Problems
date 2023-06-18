@@ -30,7 +30,6 @@ from Algorithms.isPrime import *
 # We can also develop a dictionary for numbers counting up from 1, tracking whether each of them is prime or not
 # From the largest numbers we can select their factors and filter them from the list, adding only the remaining unique factors
 
-numberOf2s = 0
 num = int(input("Enter a number: "))
 
 print("Calculating smallest positive number evenly divisible by all integers from 1 to {}...".format(num))
@@ -46,12 +45,11 @@ for x in commonNumsChecklist:
         finalProduct *= x
         counter += 1
         temp = int(temp/x)
-    print("Found {} {}'s in {}".format(counter, x, num))
-
+    #print("Found {} {}'s in {}".format(counter, x, num))
 
 for x in range(7, num, 2):
     if (isPrime(x)):
-        print(x,"is prime")
+        #print(x,"is prime")
         finalProduct *= x
 
 print("The smallest product of all integers from 1 to {} is {}".format(num, finalProduct))

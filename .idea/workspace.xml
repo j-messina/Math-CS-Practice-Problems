@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Finished problem 4, created new folder for more ProjectEuler problems; if anyone ever reads this, I salute you">
-      <change afterPath="$PROJECT_DIR$/Algorithms/isPrime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 5/problem5_solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 3/problem3_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 3/problem3_solution.py" afterDir="false" />
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Finished problem 5, fixed small error in isPrime function">
+      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 5/problem5_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 5/problem5_solution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -389,7 +386,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687021137976</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Moved isPrime algorithm to new Algorithms folder, added lots of code for problem 5">
+      <created>1687026975678</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1687026975678</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Finished problem 5, fixed small error in isPrime function">
+      <created>1687027069623</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1687027069623</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,8 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Testing this as first commit from PyCharm. Made some edits to the Problem 1 readme, including making all the numbers just bold because PyCharm's preview wasn't interpreting the $'s correctly. Also looking to implement a spoiler formatting for the problem solution, just a quality of life thing" />
-    <MESSAGE value="Removed spoiler tag because it wasn't doing anything" />
     <MESSAGE value="Completed and tested the code for Problem 1 in Python." />
     <MESSAGE value="Created Problem 2 sub-folder, created and formatted Problem 2's README, removed &quot;Problem&quot; from all Problem READMEs" />
     <MESSAGE value="Trying to remove the .idea/ directory from the repo because its just stuff specific to PyCharm, apparently" />
@@ -429,6 +438,8 @@
     <MESSAGE value="Moved some files and directories around to reorganize; key to note is the .github folder" />
     <MESSAGE value="Finished Problem 3; had most of the algorithm planned out, but I didn't account for the smaller divisor to be a potential prime until seeing the results return an obviously wrong answer of 1" />
     <MESSAGE value="Finished problem 4, created new folder for more ProjectEuler problems; if anyone ever reads this, I salute you" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished problem 4, created new folder for more ProjectEuler problems; if anyone ever reads this, I salute you" />
+    <MESSAGE value="Moved isPrime algorithm to new Algorithms folder, added lots of code for problem 5" />
+    <MESSAGE value="Finished problem 5, fixed small error in isPrime function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished problem 5, fixed small error in isPrime function" />
   </component>
 </project>
