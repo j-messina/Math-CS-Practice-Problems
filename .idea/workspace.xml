@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Finished problem 5, fixed small error in isPrime function">
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 5/problem5_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 5/problem5_solution.py" afterDir="false" />
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Small edits to Problem 5 solution">
+      <change afterPath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 6/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 6/problem6_solution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 7/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 7/problem7_solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,16 +50,16 @@
     <option name="showMembers" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jwmes/Documents/Coding/GitHub/Math-CS-Practice-Problems/ProjectEuler Problems 1-5/ProjectEuler Problem 5&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.24847251&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/jwmes/Documents/Coding/GitHub/Math-CS-Practice-Problems/ProjectEuler 6-10",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.splitter.proportion": "0.24847251"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Math-CS-Practice-Problems" is-module-sdk="true">
@@ -67,10 +71,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler 6-10" />
+      <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler 6-10\ProjectEuler Problem 6" />
       <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler Problems 1-5\ProjectEuler Problem 5" />
       <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler Problem 4" />
       <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler Problem 3" />
-      <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler Problem 2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler Problems 1-5" />
@@ -78,7 +83,7 @@
       <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.problem5_solution">
+  <component name="RunManager" selected="Python.problem6_solution">
     <configuration name="probelm2_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Math-CS-Practice-Problems" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,27 +119,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 3/problem3_solution.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="problem3_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Math-CS-Practice-Problems" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler Problem 3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler Problem 3/problem3_solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,13 +169,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="problem6_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Math-CS-Practice-Problems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 6/problem6_solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.problem6_solution" />
         <item itemvalue="Python.problem5_solution" />
         <item itemvalue="Python.problem3_solution (1)" />
         <item itemvalue="Python.problem4_solution" />
         <item itemvalue="Python.probelm2_solution" />
-        <item itemvalue="Python.problem3_solution" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687027069623</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Small edits to Problem 5 solution">
+      <created>1687066911563</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1687066911563</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +427,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed and tested the code for Problem 1 in Python." />
     <MESSAGE value="Created Problem 2 sub-folder, created and formatted Problem 2's README, removed &quot;Problem&quot; from all Problem READMEs" />
     <MESSAGE value="Trying to remove the .idea/ directory from the repo because its just stuff specific to PyCharm, apparently" />
     <MESSAGE value="Seems like I was able to hide the unnecessary directories, now on to Problem #2. I've typed out a rough plan, starting with getting some sort of fibonacci generator off the ground" />
@@ -440,6 +451,7 @@
     <MESSAGE value="Finished problem 4, created new folder for more ProjectEuler problems; if anyone ever reads this, I salute you" />
     <MESSAGE value="Moved isPrime algorithm to new Algorithms folder, added lots of code for problem 5" />
     <MESSAGE value="Finished problem 5, fixed small error in isPrime function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished problem 5, fixed small error in isPrime function" />
+    <MESSAGE value="Small edits to Problem 5 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small edits to Problem 5 solution" />
   </component>
 </project>
