@@ -1,0 +1,1 @@
+numberFile = open("number.txt", "rt")

@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Solved problem 6, started problem 7">
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Solved problem 7">
+      <change afterPath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 8/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 8/number.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 8/problem8_solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 7/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 7/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 7/problem7_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 7/problem7_solution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +50,16 @@
     <option name="showMembers" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/jwmes/Documents/Coding/GitHub/Math-CS-Practice-Problems/ProjectEuler 6-10",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "settings.editor.splitter.proportion": "0.24847251"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jwmes/Documents/Coding/GitHub/Math-CS-Practice-Problems/ProjectEuler 6-10&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.24847251&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Math-CS-Practice-Problems" is-module-sdk="true">
@@ -415,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687067815137</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Solved problem 7">
+      <created>1687068432749</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1687068432749</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -430,7 +440,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Trying to remove the .idea/ directory from the repo because its just stuff specific to PyCharm, apparently" />
     <MESSAGE value="Seems like I was able to hide the unnecessary directories, now on to Problem #2. I've typed out a rough plan, starting with getting some sort of fibonacci generator off the ground" />
     <MESSAGE value="Okay jk about the .idea folder, it showed back up on GitHub with the last commit; this time trying a new .gitignore file to hopefully omit it properly from future pushes" />
     <MESSAGE value="Okay the last commit also didn't work, so I deleted the folder on GitHub. Let's see if I broke something" />
@@ -455,6 +464,7 @@
     <MESSAGE value="Finished problem 5, fixed small error in isPrime function" />
     <MESSAGE value="Small edits to Problem 5 solution" />
     <MESSAGE value="Solved problem 6, started problem 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved problem 6, started problem 7" />
+    <MESSAGE value="Solved problem 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved problem 7" />
   </component>
 </project>
