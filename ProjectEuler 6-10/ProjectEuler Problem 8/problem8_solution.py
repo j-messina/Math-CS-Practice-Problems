@@ -48,33 +48,33 @@ with open("number.txt", "r") as beegNumFile: # open file reading in the beeeeeg 
     #                1a) Additionally, consider when a subsequent zero is found while skipping 13 places
     #   Special Case 2) When we are on the last row, we must end at y = 37      
     for x in range(0, len(beegNumAsList)):
+        skipCounter = 20
         for y in range(0, len(beegNumAsList[x])):
-            # Special Case 2
+            # Special Case 2 - When we are on the last row, we must end at 13 before the final y value
             if x == len(beegNumAsList) - 1 and y >= len(beegNumAsList[x]) - 13:
                 break
-                
-            # Special Case 1
-            if beegNumAsList[x][y] == 0:
-                skipCounter = 0
-                continue
-            elif skipCounter < 13:
-                skipCounter += 1
-                continue
     
             tempProduct = 1
-            # Case 1
+            # Case 1 - All of the digits are on the same row
             if len(beegNumAsList[x]) - y >= 13:    
                 for z in range(0, 13):
                     tempProduct *= beegNumAsList[x][y+z] # z works as the offset for the 13 numbers
-            # Case 2
+                    if tempProduct == 0: # Special Case 1: Encountered a 0
+                        break
+            # Case 2 - Some of the digits are on the next row
             else: 
                 remainingLength = len(beegNumAsList[x]) - y
                 for z in range(0, remainingLength): # multiply remaining numbers on current row
                     tempProduct *= beegNumAsList[x][y+z]
+                    if tempProduct == 0: # Special Case 1: Encountered a 0
+                        break
                 for z in range(0, 13 - remainingLength): # then do the remaining amount at start of next row
                     tempProduct *= beegNumAsList[x+1][z]
+                    if tempProduct == 0: # Special Case 1: Encountered a 0
+                        break
         
             if tempProduct > greatestProduct:
+
                 greatestProduct = tempProduct
                 
     print("Greatest product of 13 adjacents =", greatestProduct)

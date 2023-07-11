@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Started Problem 8, created text file to store the 1000 digit number, to be read into the solution file later">
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Partially completed one possible solution; it is more complex than other solutions, I realized after the fact, and it also has some unknown error because it does not come up with the correct answer; going to try a queue-based implementation next">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 8/problem8_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 8/problem8_solution.py" afterDir="false" />
     </list>
@@ -429,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687291505854</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Partially completed one possible solution; it is more complex than other solutions, I realized after the fact, and it also has some unknown error because it does not come up with the correct answer; going to try a queue-based implementation next">
+      <created>1687301529686</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1687301529686</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -444,7 +451,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Okay jk about the .idea folder, it showed back up on GitHub with the last commit; this time trying a new .gitignore file to hopefully omit it properly from future pushes" />
     <MESSAGE value="Okay the last commit also didn't work, so I deleted the folder on GitHub. Let's see if I broke something" />
     <MESSAGE value="Alright looks like .info folder has not reappeared this time after deleting it on GitHub and then pushing another commit" />
     <MESSAGE value="Alright, made a ton of progress on Problem #2, but I can't get the code to run to actually test it because of some issue with PyCharm. THANKS PyCharm" />
@@ -469,6 +475,7 @@
     <MESSAGE value="Solved problem 6, started problem 7" />
     <MESSAGE value="Solved problem 7" />
     <MESSAGE value="Started Problem 8, created text file to store the 1000 digit number, to be read into the solution file later" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started Problem 8, created text file to store the 1000 digit number, to be read into the solution file later" />
+    <MESSAGE value="Partially completed one possible solution; it is more complex than other solutions, I realized after the fact, and it also has some unknown error because it does not come up with the correct answer; going to try a queue-based implementation next" />
+    <option name="LAST_COMMIT_MESSAGE" value="Partially completed one possible solution; it is more complex than other solutions, I realized after the fact, and it also has some unknown error because it does not come up with the correct answer; going to try a queue-based implementation next" />
   </component>
 </project>
