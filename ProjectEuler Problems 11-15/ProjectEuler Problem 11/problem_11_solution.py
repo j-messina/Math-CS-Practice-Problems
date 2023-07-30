@@ -1,20 +1,19 @@
-# The sum of the squares of the first ten natural numbers is,
-# 1^2 + 2^2 + ... + 10^2 = 385.
-# The square of the sum of the first ten natural numbers is,
-# (1 + 2 + ... + 10)^2 = 55^2 = 3025.
+# note: the with statement below automatically handles closing a file at the end of the program
+with open("problem_11_20x20_grid.txt", "r") as theGRID:  # open file reading of *Jeff Bridges' voice* "THE GRID"
+    temp_str = ""
+    grid_as_2D_list = []
+    temp_list = []
 
-# Hence the difference between the sum of the squares of the first ten
-# natural numbers and the square of the sum is 3025 - 385 = 2640.
+    for line in theGRID.readlines():
+        temp_list = []
+        for char in line:
+            if char >= '0' and char <= '9':
+                temp_str += char
+                if len(temp_str) >= 2:
+                    temp_list.append(int(temp_str))
+                    temp_str = ""
+            else:
+                continue
+        grid_as_2D_list.append(temp_list)
 
-# Find the difference between the sum of the squares of the first one
-# hundred natural numbers and the square of the sum.
-sumOfNums = 0
-sumOfSquares = 0
-for num in range(1,101):
-    sumOfNums += num
-    sumOfSquares += pow(num, 2)
 
-squareOfSumOfNums = pow(sumOfNums, 2)
-finalDifference = squareOfSumOfNums - sumOfSquares
-
-print("Difference is:\n{} - {} = {}".format(squareOfSumOfNums, sumOfSquares, finalDifference))
