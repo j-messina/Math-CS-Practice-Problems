@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Issue resolved; error was caused by optimization code for checking for zeroes; fixed by rewriting the old code with extra if-statement checks when the product is multiplied">
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 11/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 6-10/ProjectEuler Problem 10/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 6-10/ProjectEuler Problem 10/problem_10_solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 6-10/ProjectEuler Problem 6/problem_6_solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 6-10/ProjectEuler Problem 9/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 6-10/ProjectEuler Problem 9/problem_9_solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems Folder Template/ProjectEuler Problem _/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems Folder Template/ProjectEuler Problem _/problem_x_solution.py" afterDir="false" />
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Updated names of problem files for more readability">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/isPrime.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/isPrime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 6-10/ProjectEuler Problem 6/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 6/problem6_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 11/problem_11_solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 7/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 6-10/ProjectEuler Problem 7/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 7/problem7_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 6-10/ProjectEuler Problem 7/problem_7_solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 8/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 6-10/ProjectEuler Problem 8/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 8/number.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 6-10/ProjectEuler Problem 8/number.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 8/problem8_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 6-10/ProjectEuler Problem 8/problem_8_solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 1/problem1_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 1/problem_1_solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 2/probelm2_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 2/probelm_2_solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 3/problem3_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 3/problem_3_solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 4/problem4_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 4/problem_4_solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 5/problem5_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 1-5/ProjectEuler Problem 5/problem_5_solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 6-10/ProjectEuler Problem 10/problem_10_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 6-10/ProjectEuler Problem 10/problem_10_solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems Folder Template/ProjectEuler Problem _/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems Folder Template/ProjectEuler Problem _/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -463,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689114765315</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Updated names of problem files for more readability">
+      <created>1690733178301</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1690733178301</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -478,7 +466,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Alright looks like .info folder has not reappeared this time after deleting it on GitHub and then pushing another commit" />
     <MESSAGE value="Alright, made a ton of progress on Problem #2, but I can't get the code to run to actually test it because of some issue with PyCharm. THANKS PyCharm" />
     <MESSAGE value="Fixed the issue with PyCharm not running the program. Had to go to Run settings, and toggle an option on. Also, finished with Problem #2, onto Problem #3!" />
     <MESSAGE value="Set up formatting, basic shape for the Problem #3 folder, also made a Problem #4 folder to try some modifications with .md files" />
@@ -503,6 +490,7 @@
     <MESSAGE value="Started Problem 8, created text file to store the 1000 digit number, to be read into the solution file later" />
     <MESSAGE value="Partially completed one possible solution; it is more complex than other solutions, I realized after the fact, and it also has some unknown error because it does not come up with the correct answer; going to try a queue-based implementation next" />
     <MESSAGE value="Issue resolved; error was caused by optimization code for checking for zeroes; fixed by rewriting the old code with extra if-statement checks when the product is multiplied" />
-    <option name="LAST_COMMIT_MESSAGE" value="Issue resolved; error was caused by optimization code for checking for zeroes; fixed by rewriting the old code with extra if-statement checks when the product is multiplied" />
+    <MESSAGE value="Updated names of problem files for more readability" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated names of problem files for more readability" />
   </component>
 </project>
