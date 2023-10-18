@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Restarted problem 11 after long break; updated code statement for processing data from text file; result is a list of lists of ints">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Finished implementation; was practically hallucinating due to sleep deprivation, so it took a really long time to mentally picture the 4 for-loops iterating through the grid in different ways">
+      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 12/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 12/problem_12_solution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 11/problem_11_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 11/problem_11_solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 11/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 11/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,17 +52,17 @@
     <option name="showMembers" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jwmes/Documents/Coding/GitHub/Math-CS-Practice-Problems/ProjectEuler Problems 11-15/ProjectEuler Problem 11&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.24847251&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/Users/johnmessina/PycharmProjects/Math-CS-Practice-Problems/ProjectEuler Problems 11-15",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.splitter.proportion": "0.24847251"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Math-CS-Practice-Problems" is-module-sdk="true">
@@ -73,11 +74,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ProjectEuler Problems 11-15" />
       <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler Problems 11-15\ProjectEuler Problem 11" />
       <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems" />
       <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler 6-10" />
       <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler 6-10\ProjectEuler Problem 6" />
-      <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler Problems 1-5\ProjectEuler Problem 5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems\ProjectEuler Problems 1-5" />
@@ -462,7 +463,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690733831147</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Finished implementation; was practically hallucinating due to sleep deprivation, so it took a really long time to mentally picture the 4 for-loops iterating through the grid in different ways">
+      <option name="closed" value="true" />
+      <created>1697590595570</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1697590595570</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Finished implementation; was practically hallucinating due to sleep deprivation, so it took a really long time to mentally picture the 4 for-loops iterating through the grid in different ways">
+      <option name="closed" value="true" />
+      <created>1697590610865</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1697590610865</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -477,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Set up formatting, basic shape for the Problem #3 folder, also made a Problem #4 folder to try some modifications with .md files" />
     <MESSAGE value="Added test.md to Project 4 folder, and put some test text in it" />
     <MESSAGE value="Changed filename from &quot;test.md&quot; to &quot;READ.md&quot;" />
     <MESSAGE value="Changed filename from &quot;READ.md&quot; to &quot;readme.md&quot;" />
@@ -502,6 +518,7 @@
     <MESSAGE value="Updated names of problem files for more readability" />
     <MESSAGE value="Almost accidentally deleted all of the code for solving problem 10, whoops. Saved it and now committing for even more safety" />
     <MESSAGE value="Started problem 11; found seemingly working solution to problem of reading whitespace-separated ints from a file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started problem 11; found seemingly working solution to problem of reading whitespace-separated ints from a file" />
+    <MESSAGE value="Finished implementation; was practically hallucinating due to sleep deprivation, so it took a really long time to mentally picture the 4 for-loops iterating through the grid in different ways" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished implementation; was practically hallucinating due to sleep deprivation, so it took a really long time to mentally picture the 4 for-loops iterating through the grid in different ways" />
   </component>
 </project>
