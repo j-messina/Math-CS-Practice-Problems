@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Finished formatting problem 13 README">
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 13/problem_13_nums.txt" afterDir="false" />
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Finished problem 13; it was poorly worded, unfortunately, when it didn't indicate that it wanted the LEFTMOST 10 digits of the resulting sum">
+      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 14/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 14/problem_14_solution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 13/problem_13_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 13/problem_13_solution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -510,7 +510,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697739016278</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Finished problem 13; it was poorly worded, unfortunately, when it didn't indicate that it wanted the LEFTMOST 10 digits of the resulting sum">
+      <option name="closed" value="true" />
+      <created>1697740834777</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1697740834777</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -525,7 +533,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed filename from &quot;readme.md&quot; &quot;readme.problem4.md&quot;" />
     <MESSAGE value="Changed filename from &quot;readme.problem4.md&quot; to &quot;problem4.readme.md&quot;" />
     <MESSAGE value="Changed filename from &quot;problem4.readme.md&quot; to &quot;a_readme.md&quot;" />
     <MESSAGE value="Changed filename from &quot;a_readme.md&quot; to &quot;readme4.md&quot;" />
@@ -550,6 +557,7 @@
     <MESSAGE value="Created new Problem 12 folder, fixed up formatting for README file --&gt; still could use a right-alignment for the bolded numbers to make it look better" />
     <MESSAGE value="Finished problem 12 and created problem 13 folder" />
     <MESSAGE value="Finished formatting problem 13 README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished formatting problem 13 README" />
+    <MESSAGE value="Finished problem 13; it was poorly worded, unfortunately, when it didn't indicate that it wanted the LEFTMOST 10 digits of the resulting sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished problem 13; it was poorly worded, unfortunately, when it didn't indicate that it wanted the LEFTMOST 10 digits of the resulting sum" />
   </component>
 </project>
