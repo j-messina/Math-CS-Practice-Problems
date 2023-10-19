@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Finished Problem 14; side note - I watched a coding video beforehand of someone writing a ReactNative social app; they just wrote code on screen elegantly and efficiently --&gt; I think channeled some of its energy to wind up coding this rather quickly, because I solved it in about 10 minutes or less">
-      <change afterPath="$PROJECT_DIR$/Algorithms/Collatzify.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 15/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 15/problem_15_solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 14/problem_14_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 14/problem_14_solution.py" afterDir="false" />
-    </list>
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Created and finished problem 15. It unfortunately was not much of a coding problem, but nonetheless I explained my thought process for solving it, and provided code for calculating the correct answer" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -536,7 +530,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697748080501</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Created and finished problem 15. It unfortunately was not much of a coding problem, but nonetheless I explained my thought process for solving it, and provided code for calculating the correct answer">
+      <option name="closed" value="true" />
+      <created>1697754296014</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1697754296014</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed filename from &quot;a_readme.md&quot; to &quot;readme4.md&quot;" />
     <MESSAGE value="Changed &quot;readme4.md&quot; filename to &quot;A README.md&quot;&#10;Also made a new .md file" />
     <MESSAGE value="Added some notes to A README.md, and testing some maybe commands with the other .md" />
     <MESSAGE value="Changed filename README-2.md" />
@@ -576,6 +577,7 @@
     <MESSAGE value="Finished problem 13; it was poorly worded, unfortunately, when it didn't indicate that it wanted the LEFTMOST 10 digits of the resulting sum" />
     <MESSAGE value="Created Problem 14 folder" />
     <MESSAGE value="Finished Problem 14; side note - I watched a coding video beforehand of someone writing a ReactNative social app; they just wrote code on screen elegantly and efficiently --&gt; I think channeled some of its energy to wind up coding this rather quickly, because I solved it in about 10 minutes or less" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Problem 14; side note - I watched a coding video beforehand of someone writing a ReactNative social app; they just wrote code on screen elegantly and efficiently --&gt; I think channeled some of its energy to wind up coding this rather quickly, because I solved it in about 10 minutes or less" />
+    <MESSAGE value="Created and finished problem 15. It unfortunately was not much of a coding problem, but nonetheless I explained my thought process for solving it, and provided code for calculating the correct answer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created and finished problem 15. It unfortunately was not much of a coding problem, but nonetheless I explained my thought process for solving it, and provided code for calculating the correct answer" />
   </component>
 </project>
