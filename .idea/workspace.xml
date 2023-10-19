@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Finished implementation; was practically hallucinating due to sleep deprivation, so it took a really long time to mentally picture the 4 for-loops iterating through the grid in different ways">
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 12/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 12/problem_12_solution.py" afterDir="false" />
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Created new Problem 12 folder, fixed up formatting for README file --&gt; still could use a right-alignment for the bolded numbers to make it look better">
+      <change afterPath="$PROJECT_DIR$/Algorithms/find_number_of_divisors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 13/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 13/problem_13_solution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 11/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 11/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/isPrime.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/isPrime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 12/problem_12_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 12/problem_12_solution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +88,7 @@
       <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.problem_11_solution">
+  <component name="RunManager" selected="Python.problem_12_solution">
     <configuration name="isPrime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Math-CS-Practice-Problems" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,27 +123,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 10/problem10_solution.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="problem8_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Math-CS-Practice-Problems" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 8" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler 6-10/ProjectEuler Problem 8/problem8_solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,13 +173,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="problem_12_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Math-CS-Practice-Problems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 12/problem_12_solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.problem_12_solution" />
         <item itemvalue="Python.problem_11_solution" />
         <item itemvalue="Python.problem10_solution" />
         <item itemvalue="Python.isPrime" />
         <item itemvalue="Python.problem9_solution" />
-        <item itemvalue="Python.problem8_solution" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +481,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697590610865</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Created new Problem 12 folder, fixed up formatting for README file --&gt; still could use a right-alignment for the bolded numbers to make it look better">
+      <option name="closed" value="true" />
+      <created>1697591679766</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1697591679766</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Created new Problem 12 folder, fixed up formatting for README file --&gt; still could use a right-alignment for the bolded numbers to make it look better">
+      <option name="closed" value="true" />
+      <created>1697591747727</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1697591747727</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +512,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added test.md to Project 4 folder, and put some test text in it" />
     <MESSAGE value="Changed filename from &quot;test.md&quot; to &quot;READ.md&quot;" />
     <MESSAGE value="Changed filename from &quot;READ.md&quot; to &quot;readme.md&quot;" />
     <MESSAGE value="Changed filename from &quot;readme.md&quot; &quot;readme.problem4.md&quot;" />
@@ -519,6 +536,7 @@
     <MESSAGE value="Almost accidentally deleted all of the code for solving problem 10, whoops. Saved it and now committing for even more safety" />
     <MESSAGE value="Started problem 11; found seemingly working solution to problem of reading whitespace-separated ints from a file" />
     <MESSAGE value="Finished implementation; was practically hallucinating due to sleep deprivation, so it took a really long time to mentally picture the 4 for-loops iterating through the grid in different ways" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished implementation; was practically hallucinating due to sleep deprivation, so it took a really long time to mentally picture the 4 for-loops iterating through the grid in different ways" />
+    <MESSAGE value="Created new Problem 12 folder, fixed up formatting for README file --&gt; still could use a right-alignment for the bolded numbers to make it look better" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created new Problem 12 folder, fixed up formatting for README file --&gt; still could use a right-alignment for the bolded numbers to make it look better" />
   </component>
 </project>

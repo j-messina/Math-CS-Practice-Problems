@@ -14,3 +14,4 @@ def isPrime(num):
             if num % x == 0:
                 return False
     return True
+
