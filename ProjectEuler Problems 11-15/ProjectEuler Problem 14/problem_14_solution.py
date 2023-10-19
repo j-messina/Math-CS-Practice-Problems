@@ -1,8 +1,4 @@
-def Collatzify(num):
-    if num % 2 == 0:
-        return num/2
-    else:
-        return (3*num) + 1
+from Algorithms.Collatzify import *
 
 best_num = 1
 best_Collatz_chain = 1
