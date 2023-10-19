@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Created new Problem 12 folder, fixed up formatting for README file --&gt; still could use a right-alignment for the bolded numbers to make it look better">
-      <change afterPath="$PROJECT_DIR$/Algorithms/find_number_of_divisors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 13/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 13/problem_13_solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/isPrime.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/isPrime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 12/problem_12_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 12/problem_12_solution.py" afterDir="false" />
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Finished problem 12 and created problem 13 folder">
+      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 13/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 13/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -497,7 +492,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697591747727</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Finished problem 12 and created problem 13 folder">
+      <option name="closed" value="true" />
+      <created>1697738921799</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1697738921799</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -512,7 +515,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed filename from &quot;test.md&quot; to &quot;READ.md&quot;" />
     <MESSAGE value="Changed filename from &quot;READ.md&quot; to &quot;readme.md&quot;" />
     <MESSAGE value="Changed filename from &quot;readme.md&quot; &quot;readme.problem4.md&quot;" />
     <MESSAGE value="Changed filename from &quot;readme.problem4.md&quot; to &quot;problem4.readme.md&quot;" />
@@ -537,6 +539,7 @@
     <MESSAGE value="Started problem 11; found seemingly working solution to problem of reading whitespace-separated ints from a file" />
     <MESSAGE value="Finished implementation; was practically hallucinating due to sleep deprivation, so it took a really long time to mentally picture the 4 for-loops iterating through the grid in different ways" />
     <MESSAGE value="Created new Problem 12 folder, fixed up formatting for README file --&gt; still could use a right-alignment for the bolded numbers to make it look better" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created new Problem 12 folder, fixed up formatting for README file --&gt; still could use a right-alignment for the bolded numbers to make it look better" />
+    <MESSAGE value="Finished problem 12 and created problem 13 folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished problem 12 and created problem 13 folder" />
   </component>
 </project>
