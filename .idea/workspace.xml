@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Finished problem 13; it was poorly worded, unfortunately, when it didn't indicate that it wanted the LEFTMOST 10 digits of the resulting sum">
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 14/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 14/problem_14_solution.py" afterDir="false" />
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Created Problem 14 folder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 14/problem_14_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 14/problem_14_solution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,28 +84,7 @@
       <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.problem_13_solution">
-    <configuration name="isPrime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Math-CS-Practice-Problems" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithms" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithms/isPrime.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.problem_14_solution">
     <configuration name="problem10_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Math-CS-Practice-Problems" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,13 +169,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="problem_14_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Math-CS-Practice-Problems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 14/problem_14_solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.problem_14_solution" />
         <item itemvalue="Python.problem_13_solution" />
         <item itemvalue="Python.problem_12_solution" />
         <item itemvalue="Python.problem_11_solution" />
         <item itemvalue="Python.problem10_solution" />
-        <item itemvalue="Python.isPrime" />
       </list>
     </recent_temporary>
   </component>
@@ -518,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697740834777</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Created Problem 14 folder">
+      <option name="closed" value="true" />
+      <created>1697741598794</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1697741598794</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -533,7 +540,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed filename from &quot;readme.problem4.md&quot; to &quot;problem4.readme.md&quot;" />
     <MESSAGE value="Changed filename from &quot;problem4.readme.md&quot; to &quot;a_readme.md&quot;" />
     <MESSAGE value="Changed filename from &quot;a_readme.md&quot; to &quot;readme4.md&quot;" />
     <MESSAGE value="Changed &quot;readme4.md&quot; filename to &quot;A README.md&quot;&#10;Also made a new .md file" />
@@ -558,6 +564,7 @@
     <MESSAGE value="Finished problem 12 and created problem 13 folder" />
     <MESSAGE value="Finished formatting problem 13 README" />
     <MESSAGE value="Finished problem 13; it was poorly worded, unfortunately, when it didn't indicate that it wanted the LEFTMOST 10 digits of the resulting sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished problem 13; it was poorly worded, unfortunately, when it didn't indicate that it wanted the LEFTMOST 10 digits of the resulting sum" />
+    <MESSAGE value="Created Problem 14 folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Problem 14 folder" />
   </component>
 </project>
