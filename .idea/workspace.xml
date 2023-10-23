@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Created new folder for problems 16 - 20, as well as the starting of problem 16">
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 17/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 17/problem_17_solution.py" afterDir="false" />
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Started work on problem 17, in the middle of parsing numbers into words">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 16/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 16/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 17/problem_17_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 17/problem_17_solution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -553,7 +551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697755034629</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Started work on problem 17, in the middle of parsing numbers into words">
+      <option name="closed" value="true" />
+      <created>1697764363877</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1697764363877</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -568,7 +574,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added some notes to A README.md, and testing some maybe commands with the other .md" />
     <MESSAGE value="Changed filename README-2.md" />
     <MESSAGE value="Moved some files and directories around to reorganize; key to note is the .github folder" />
     <MESSAGE value="Finished Problem 3; had most of the algorithm planned out, but I didn't account for the smaller divisor to be a potential prime until seeing the results return an obviously wrong answer of 1" />
@@ -593,6 +598,7 @@
     <MESSAGE value="Finished Problem 14; side note - I watched a coding video beforehand of someone writing a ReactNative social app; they just wrote code on screen elegantly and efficiently --&gt; I think channeled some of its energy to wind up coding this rather quickly, because I solved it in about 10 minutes or less" />
     <MESSAGE value="Created and finished problem 15. It unfortunately was not much of a coding problem, but nonetheless I explained my thought process for solving it, and provided code for calculating the correct answer" />
     <MESSAGE value="Created new folder for problems 16 - 20, as well as the starting of problem 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created new folder for problems 16 - 20, as well as the starting of problem 16" />
+    <MESSAGE value="Started work on problem 17, in the middle of parsing numbers into words" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started work on problem 17, in the middle of parsing numbers into words" />
   </component>
 </project>
