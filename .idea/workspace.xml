@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Started work on problem 17, in the middle of parsing numbers into words">
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Finished problem 17 - required a fair bit of debugging with the penultimate issue being that extra &quot;and&quot; words were being counted on each hundred number (eg: 100, 200, etc.)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 17/problem_17_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 17/problem_17_solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 16/problem_16_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 16/problem_16_solution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +50,17 @@
     <option name="showMembers" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/Users/johnmessina/PycharmProjects/Math-CS-Practice-Problems/ProjectEuler Problems 16-20",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "settings.editor.splitter.proportion": "0.24847251"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/johnmessina/PycharmProjects/Math-CS-Practice-Problems/ProjectEuler Problems 16-20&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.24847251&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Math-CS-Practice-Problems" is-module-sdk="true">
@@ -86,28 +86,7 @@
       <recent name="C:\Users\jwmes\Documents\Coding\GitHub\Math-CS-Practice-Problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.problem_17_solution">
-    <configuration name="problem_12_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Math-CS-Practice-Problems" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 12" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler Problems 11-15/ProjectEuler Problem 12/problem_12_solution.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.problem_16_solution">
     <configuration name="problem_13_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Math-CS-Practice-Problems" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,6 +150,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="problem_16_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Math-CS-Practice-Problems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 16/problem_16_solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="problem_17_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Math-CS-Practice-Problems" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.problem_16_solution" />
         <item itemvalue="Python.problem_17_solution" />
         <item itemvalue="Python.problem_15_solution" />
         <item itemvalue="Python.problem_14_solution" />
         <item itemvalue="Python.problem_13_solution" />
-        <item itemvalue="Python.problem_12_solution" />
       </list>
     </recent_temporary>
   </component>
@@ -559,7 +559,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697764363877</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Finished problem 17 - required a fair bit of debugging with the penultimate issue being that extra &quot;and&quot; words were being counted on each hundred number (eg: 100, 200, etc.)">
+      <option name="closed" value="true" />
+      <created>1698026901062</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1698026901062</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -574,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed filename README-2.md" />
     <MESSAGE value="Moved some files and directories around to reorganize; key to note is the .github folder" />
     <MESSAGE value="Finished Problem 3; had most of the algorithm planned out, but I didn't account for the smaller divisor to be a potential prime until seeing the results return an obviously wrong answer of 1" />
     <MESSAGE value="Finished problem 4, created new folder for more ProjectEuler problems; if anyone ever reads this, I salute you" />
@@ -599,6 +606,7 @@
     <MESSAGE value="Created and finished problem 15. It unfortunately was not much of a coding problem, but nonetheless I explained my thought process for solving it, and provided code for calculating the correct answer" />
     <MESSAGE value="Created new folder for problems 16 - 20, as well as the starting of problem 16" />
     <MESSAGE value="Started work on problem 17, in the middle of parsing numbers into words" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started work on problem 17, in the middle of parsing numbers into words" />
+    <MESSAGE value="Finished problem 17 - required a fair bit of debugging with the penultimate issue being that extra &quot;and&quot; words were being counted on each hundred number (eg: 100, 200, etc.)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished problem 17 - required a fair bit of debugging with the penultimate issue being that extra &quot;and&quot; words were being counted on each hundred number (eg: 100, 200, etc.)" />
   </component>
 </project>
