@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Finished problem 17 - required a fair bit of debugging with the penultimate issue being that extra &quot;and&quot; words were being counted on each hundred number (eg: 100, 200, etc.)">
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Finished problem 16 - accidentally skipped it and did problem 17 first, but now they are both done. I went a little extra with this one, making it interactable">
+      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 18/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 18/problem_17_solution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 16/problem_16_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 16/problem_16_solution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -463,14 +464,6 @@
       <option name="project" value="LOCAL" />
       <updated>1690733831147</updated>
     </task>
-    <task id="LOCAL-00037" summary="Finished implementation; was practically hallucinating due to sleep deprivation, so it took a really long time to mentally picture the 4 for-loops iterating through the grid in different ways">
-      <option name="closed" value="true" />
-      <created>1697590595570</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1697590595570</updated>
-    </task>
     <task id="LOCAL-00038" summary="Finished implementation; was practically hallucinating due to sleep deprivation, so it took a really long time to mentally picture the 4 for-loops iterating through the grid in different ways">
       <option name="closed" value="true" />
       <created>1697590610865</created>
@@ -567,7 +560,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698026901062</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Finished problem 16 - accidentally skipped it and did problem 17 first, but now they are both done. I went a little extra with this one, making it interactable">
+      <option name="closed" value="true" />
+      <created>1698194107276</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1698194107277</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -582,7 +583,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Moved some files and directories around to reorganize; key to note is the .github folder" />
     <MESSAGE value="Finished Problem 3; had most of the algorithm planned out, but I didn't account for the smaller divisor to be a potential prime until seeing the results return an obviously wrong answer of 1" />
     <MESSAGE value="Finished problem 4, created new folder for more ProjectEuler problems; if anyone ever reads this, I salute you" />
     <MESSAGE value="Moved isPrime algorithm to new Algorithms folder, added lots of code for problem 5" />
@@ -607,6 +607,7 @@
     <MESSAGE value="Created new folder for problems 16 - 20, as well as the starting of problem 16" />
     <MESSAGE value="Started work on problem 17, in the middle of parsing numbers into words" />
     <MESSAGE value="Finished problem 17 - required a fair bit of debugging with the penultimate issue being that extra &quot;and&quot; words were being counted on each hundred number (eg: 100, 200, etc.)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished problem 17 - required a fair bit of debugging with the penultimate issue being that extra &quot;and&quot; words were being counted on each hundred number (eg: 100, 200, etc.)" />
+    <MESSAGE value="Finished problem 16 - accidentally skipped it and did problem 17 first, but now they are both done. I went a little extra with this one, making it interactable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished problem 16 - accidentally skipped it and did problem 17 first, but now they are both done. I went a little extra with this one, making it interactable" />
   </component>
 </project>
