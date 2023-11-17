@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Prepped Problem 18, now ready for solving">
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 19/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 19/problem_19_solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 20/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 16-20/ProjectEuler Problem 20/problem_20_solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 21/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 21/problem_21_solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 22/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 22/problem_22_solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 23/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 23/problem_23_solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 24/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 24/problem_24_solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 25/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 25/problem_25_solution.py" afterDir="false" />
+    <list default="true" id="5376ef82-f478-47eb-8402-918dc0b487e6" name="Default Changelist" comment="Did a lot of stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 23/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 23/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 24/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 24/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 24/problem_24_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 24/problem_24_solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 25/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 25/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 25/problem_25_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectEuler Problems 21-25/ProjectEuler Problem 25/problem_25_solution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +47,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2QtpDBzSfqGxWkXpESTM3WzynDt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,6 +58,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -476,14 +470,6 @@
       <option name="project" value="LOCAL" />
       <updated>1690733831147</updated>
     </task>
-    <task id="LOCAL-00039" summary="Created new Problem 12 folder, fixed up formatting for README file --&gt; still could use a right-alignment for the bolded numbers to make it look better">
-      <option name="closed" value="true" />
-      <created>1697591679766</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1697591679766</updated>
-    </task>
     <task id="LOCAL-00040" summary="Created new Problem 12 folder, fixed up formatting for README file --&gt; still could use a right-alignment for the bolded numbers to make it look better">
       <option name="closed" value="true" />
       <created>1697591747727</created>
@@ -580,7 +566,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698194938707</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Did a lot of stuff">
+      <option name="closed" value="true" />
+      <created>1700186165165</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1700186165165</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -595,7 +589,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished problem 4, created new folder for more ProjectEuler problems; if anyone ever reads this, I salute you" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Moved isPrime algorithm to new Algorithms folder, added lots of code for problem 5" />
     <MESSAGE value="Finished problem 5, fixed small error in isPrime function" />
     <MESSAGE value="Small edits to Problem 5 solution" />
@@ -620,6 +614,7 @@
     <MESSAGE value="Finished problem 17 - required a fair bit of debugging with the penultimate issue being that extra &quot;and&quot; words were being counted on each hundred number (eg: 100, 200, etc.)" />
     <MESSAGE value="Finished problem 16 - accidentally skipped it and did problem 17 first, but now they are both done. I went a little extra with this one, making it interactable" />
     <MESSAGE value="Prepped Problem 18, now ready for solving" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepped Problem 18, now ready for solving" />
+    <MESSAGE value="Did a lot of stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Did a lot of stuff" />
   </component>
 </project>

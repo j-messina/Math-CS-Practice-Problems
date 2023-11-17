@@ -1,16 +1,10 @@
-<h1>ProjectEuler Problem 19: Counting Sundays</h1>
+<h1>ProjectEuler Problem 24: Lexicographic Permutations</h1>
 
-<p>You are given the following information, but you may prefer to do some research for yourself.</p>
-<ul><li>1 Jan 1900 was a Monday.</li>
-<li>Thirty days has September,<br />
-April, June and November.<br />
-All the rest have thirty-one,<br />
-Saving February alone,<br />
-Which has twenty-eight, rain or shine.<br />
-And on leap years, twenty-nine.</li>
-<li>A leap year occurs on any year evenly divisible by 4, but not on a century unless it is divisible by 400.</li>
-</ul><p>How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?</p>
+<p>A permutation is an ordered arrangement of objects. For example, 3124 is one possible permutation of the digits 1, 2, 3 and 4. If all of the permutations are listed numerically or alphabetically, we call it lexicographic order. The lexicographic permutations of 0, 1 and 2 are:</p>
+<center>012   021   102   120   201   210</center>
+<p>What is the millionth lexicographic permutation of the digits 0, 1, 2, 3, 4, 5, 6, 7, 8 and 9?</p>
+
 
 <hr>
 
-URL: https://projecteuler.net/problem=19
+URL: https://projecteuler.net/problem=24

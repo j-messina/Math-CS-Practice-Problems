@@ -1,29 +1,11 @@
-<h1>ProjectEuler Problem 18: Maximum Path Sum I</h1>
+<h1>ProjectEuler Problem 23: Non-Abundant Sums</h1>
+<p>A perfect number is a number for which the sum of its proper divisors is exactly equal to the number. For example, the sum of the proper divisors of 28 would be 1 + 2 + 4 + 7 + 14 = 28, which means that 28 is a perfect number.</p>
+<p>A number n is called deficient if the sum of its proper divisors is less than n and it is called abundant if this sum exceeds n.</p>
 
-<p>By starting at the top of the triangle below and moving to adjacent numbers on the row below, the maximum total from top to bottom is 23.</p>
-<center style="color:red">3</center>
-<center> <span style="color:red">7</span> 4</center>
-<center>2 <span style="color:red">4</span> 6</center>
-<center>8 5 <span style="color:red">9</span> 3</center>
+<p>As 12 is the smallest abundant number, 1 + 2 + 3 + 4 + 6 = 16, the smallest number that can be written as the sum of two abundant numbers is 24. By mathematical analysis, it can be shown that all integers greater than 28123 can be written as the sum of two abundant numbers. However, this upper limit cannot be reduced any further by analysis even though it is known that the greatest number that cannot be expressed as the sum of two abundant numbers is less than this limit.</p>
+<p>Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.</p>
 
-<p>That is, 3 + 7 + 4 + 9 = 23.</p>
-<p>Find the maximum total from top to bottom of the triangle below:</p>
-<center>75 <br>
-95 64<br>
-17 47 82<br>
-18 35 87 10<br>
-20 04 82 47 65<br>
-19 01 23 75 03 34<br>
-88 02 77 73 07 63 67<br>
-99 65 04 28 06 16 70 92<br>
-41 41 26 56 83 40 80 70 33<br>
-41 48 72 33 47 32 37 16 94 29<br>
-53 71 44 65 25 43 91 52 97 51 14<br>
-70 11 33 28 77 73 17 78 39 68 17 57<br>
-91 71 52 38 17 14 91 43 58 50 27 29 48<br>
-63 66 04 68 89 53 67 30 73 16 69 87 40 31<br>
-04 62 98 27 23 09 70 98 73 93 38 53 60 04 23</center>
-<p class="note"><b>NOTE:</b> As there are only 16384 routes, it is possible to solve this problem by trying every route. However, <a href="problem=67">Problem 67</a>, is the same challenge with a triangle containing one-hundred rows; it cannot be solved by brute force, and requires a clever method! ;o)</p>
+
 <hr>
 
-URL: https://projecteuler.net/problem=18
+URL: https://projecteuler.net/problem=23

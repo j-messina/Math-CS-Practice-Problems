@@ -1,9 +1,27 @@
-<h1>ProjectEuler Problem 20: Factorial Digit Sum
-</h1>
-<p><code>n!</code> means <code>n &times; (n - 1) &times; ... &times; 3 &times; 2 &times; 1.</code></p>
-<p>For example, <code>10 = 10 &times; 9 &times; ... &times; 3 &times; 2 &times; 1 = 3628800 </code>,<br>and the sum of the digits in the number <code>10!</code> is <code>3 + 6 + 2 + 8 + 8 + 0 + 0 = 27</code>.</p>
-<p>Find the sum of the digits in the number <code>100!</code>.</p>
+<h1>ProjectEuler Problem 25: 1000-digit Fibonacci Number</h1>
+
+<p>The Fibonacci sequence is defined by the recurrence relation:</p>
+<blockquote>F<sub>n</sub> = F<sub>n-1</sub> + F<sub>n-2</sub>, where F<sub>1</sub> = 1 and F<sub>2</sub> = 1.</blockquote>
+<p>Hence the first 12 terms will be:</p>
+
+<center>
+F<sub>1</sub> = 1<br>
+F<sub>2</sub> = 1<br>
+F<sub>3</sub> = 2<br>
+F<sub>4</sub> = 3<br>
+F<sub>5</sub> = 5<br>
+F<sub>6</sub> = 8<br>
+F<sub>7</sub> = 13<br>
+F<sub>8</sub> = 21<br>
+F<sub>9</sub> = 34<br>
+F<sub>10</sub> = 55<br>
+F<sub>11</sub> = 89<br>
+F<sub>12</sub> = 144
+</center>
+<p>The 12th term, F<sub>12</sub>, is the first term to contain three digits.</p>
+<p>What is the index of the first term in the Fibonacci sequence to contain 1000 digits?</p>
+
 
 <hr>
 
-URL: https://projecteuler.net/problem=20
+URL: https://projecteuler.net/problem=25
