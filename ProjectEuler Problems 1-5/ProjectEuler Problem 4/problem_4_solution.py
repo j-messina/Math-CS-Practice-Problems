@@ -20,4 +20,4 @@ for x in range(101, 1000):
                     break
             if isPalindrome and int(product) > highestPalindrome:
                 highestPalindrome = int(product)
-                print("New highest palindrome:", highestPalindrome)
+                print("New highest palindrome: {} x {} = {}".format(x, y, highestPalindrome))
