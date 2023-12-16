@@ -1,6 +1,4 @@
-from binarytree import Node
-
-tree = [
+pe_triangle = [
     [75],
     [95, 64],
     [17, 47, 82],
@@ -18,9 +16,24 @@ tree = [
     [4, 62, 98, 27, 23, 9, 70, 98, 73, 93, 38, 53, 60, 4, 23]
 ]
 
-binary_tree_root = Node(tree[0][0])
-starting_row = 1
+def max_path_sum(triangle):
+    for row in range(len(triangle) - 2, -1, -1):
+        for col in range(len(triangle[row])):
+            triangle[row][col] += max(triangle[row + 1][col], triangle[row + 1][col + 1])
 
-for index, value in enumerate(tree[starting_row:], start=starting_row):
-    print(f"Index: {index}, Value: {value}")
+    return triangle[0][0]
 
+# Example usage:
+triangle = [
+       [3],
+      [7, 4],
+     [2, 4, 6],
+    [8, 5, 9, 3]
+]
+
+# result = max_path_sum(triangle)
+result = max_path_sum(pe_triangle)
+
+print(result)
+    
+     
