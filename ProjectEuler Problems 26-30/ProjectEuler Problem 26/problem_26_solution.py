@@ -48,61 +48,7 @@ def is_Single_Or_Double_Repeating(num):
         # the distance between the two now denotes the potential repetition distance
         # in tandem, check if sequence of values after first mark matches sequence after second mark
         # if success, then return sequence length as confirmation of True
-        # if fail, then return 0 as confirmation of False
-def is_Any_Repeating(num):
-    rep_distance = 0
-    potential_distance = 0
-    num_as_str = str(num)
-    for index in range(2, len(num_as_str)-7):
-        starting_val = num_as_str[index]
-        for innerdex in range(index+1, len(num_as_str)-3):
-            potential_same_val = num_as_str[innerdex]
-            if starting_val == potential_same_val:
-                potential_distance = innerdex-index
-                pattern = True
-                while pattern:
-
-                    for offset in range(1, potential_distance-1):
-                        try:
-                            next_in_sequence_1m = num_as_str[index+offset]
-                            next_in_sequence_2m = num_as_str[innerdex+offset]
-                        except IndexError:
-                            break
-                        else:
-                            if next_in_sequence_1m != next_in_sequence_2m:
-                                break
-                rep_distance = potential_distance
-                break
-                # reaching this line means that the sequence is repeating
-    return rep_distance # returning 0 means that there was no repeating decimal found
-
-def IAR(num):
-    best_pattern_length = 0
-    num_as_str = str(num)
-    len_num_as_str = len(num_as_str)
-    for index in range(2, len_num_as_str-6): # set to -6 because we want at least 7 length
-        starting_val = num_as_str[index]
-        for innerdex in range(index+1, len_num_as_str-3): # defining as pattern if at least 3 values after match for both marks
-            potential_same_val = num_as_str[innerdex]
-            if starting_val == potential_same_val: # if pattern showing, have to check rest of sequence
-                # use distance as increment value
-                potential_distance = innerdex - index
-                # print("Pattern found at index {} and {}".format(innerdex, index))
-                pattern = False
-                for next_mark in range(innerdex, int(len_num_as_str/potential_distance)*potential_distance, potential_distance):
-                    try:
-                        if starting_val != num_as_str[next_mark]:
-                            break
-                    except IndexError:
-                        continue
-                else:
-                    pattern = True
-                if pattern:
-                    # if potential_distance > best_pattern_length:
-                    # best_pattern_length = potential_distance
-                    print("Pattern found at index {} and {}".format(innerdex, index))
-                    return potential_distance
-    return 0                
+        # if fail, then return 0 as confirmation of False              
 
 def IAR2(num):
     num_as_str = str(num)
@@ -135,7 +81,7 @@ def IAR2(num):
 # Step 4: Run the any-length function to find answer
 import decimal
 from decimal import Decimal
-decimal.getcontext().prec=1000
+decimal.getcontext().prec=000
 best_pattern_length = 0
 best_length_num = 1
 
@@ -151,7 +97,3 @@ for x in range(1,1000):
         print("Non-repeating")
 print()
 print("The longest length from the set found was", best_pattern_length, "from 1/{}".format(best_length_num))
-
-# print(IAR2(Decimal(1)/Decimal(46)))
-
-# print(is_Any_Repeating(Decimal(1)/Decimal(999)))
