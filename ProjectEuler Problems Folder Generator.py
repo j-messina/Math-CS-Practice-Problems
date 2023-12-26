@@ -50,7 +50,7 @@ def make_new_folder():
             readme_filename = 'README.md'
             readme_file_path = os.path.join(problem_folder_path, readme_filename)
             f = open(readme_file_path, 'w')
-            readme_text = "<h1> ProjectEuler Problem {0}: </h1>\n\n<hr>\n\nURL: https://projecteuler.net/problem={0}".format(problem_num)
+            readme_text = "<h1> ProjectEuler Problem {0}: </h1>\n\n\n<hr>\nURL: https://projecteuler.net/problem={0}".format(problem_num)
             f.write(readme_text)
             f.close()
             
