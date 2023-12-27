@@ -8,64 +8,63 @@ from pygame.locals import *
 from OpenGL.GL import *
 from OpenGL.GLU import *
 
-vertices= (
-    (1, -1, -1),
-    (1, 1, -1),
-    (-1, 1, -1),
-    (-1, -1, -1),
-    (1, -1, 1),
-    (1, 1, 1),
-    (-1, -1, 1),
-    (-1, 1, 1)
-    )
+# Define vertices
+    # Keep in mind, order matters
+    # Defined as a tuple of lists
+# Define edges
+# Define colors
+# Define surfaces
+# Define cube function
+# Define main function
+# Run main
+
+vertices = (
+    [-1,0,1], # 0 (lower left corner)
+    [-1,0,-1],# 1 (upper left corner)
+    [1,0,-1], # 2 (upper right corner)
+    [1,0,1],  # 3 (lower right corner)
+    [0,1,0]   # 4 (apex)
+)
 
 edges = (
-    (0,1),
-    (0,3),
-    (0,4),
-    (2,1),
-    (2,3),
-    (2,7),
-    (6,3),
-    (6,4),
-    (6,7),
-    (5,1),
-    (5,4),
-    (5,7)
-    )
+    [0,1], # 0 left edge
+    [1,2], # 1 upper edge
+    [2,3], # 2 right edge
+    [3,0], # 3 lower edger
+    [0,4], # 4 lower left to apex
+    [1,4], # 5 upper left to apex
+    [2,4], # 6 upper right to apex
+    [3,4]  # 7 lower right to apex
+)
 
 colors = (
-    (1,0,0),
-    (0,1,0),
-    (0,0,1),
-    (0,1,0),
-    (1,1,1),
-    (0,1,1),
-    (1,0,0),
-    (0,1,0),
-    (0,0,1),
-    (1,0,0),
-    (1,1,1),
-    (0,1,1),
-    )
+    [  1,   0,   0],
+    [  1,   0,   0],
+    [  1,   0,   0],
+    [  1,   1,   0],
+    [  1,   0,   1],
+    [  0,   1,   1],
+    [  1,   0,   0],
+    [  0,   1,   0]
+
+)
 
 surfaces = (
-    (0,1,2,3),
-    (3,2,7,6),
-    (6,7,5,4),
-    (4,5,1,0),
-    (1,5,7,2),
-    (4,0,3,6)
-    )
+    [0,1,2,3],
+    [0,1,4,0],
+    [1,2,4,1],
+    [2,3,4,2],
+    [3,4,0,3]
+)
 
-def Cube():
+def Pyramid():
     glBegin(GL_QUADS)
     for surface in surfaces:
         x = 0
         for vertex in surface:
-            x+=1
             glColor3fv(colors[x])
             glVertex3fv(vertices[vertex])
+            x+=1
     glEnd()
 
     glBegin(GL_LINES)
@@ -88,9 +87,8 @@ def main():
                 quit()
         glRotatef(1, 3, 1, 1)
         glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
-        Cube()
+        Pyramid()
         pygame.display.flip()
         pygame.time.wait(10)
 
 main()
-
