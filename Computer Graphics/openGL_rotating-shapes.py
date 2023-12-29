@@ -13,7 +13,7 @@ from OpenGL.GLU import *
     # Defined as a tuple of lists
 # Define edges
 # Define colors
-# Define surfaces
+# Define quads
 # Define cube function
 # Define main function
 # Run main
@@ -39,29 +39,40 @@ edges = (
 
 colors = (
     [  1,   0,   0],
-    [  1,   0,   0],
-    [  1,   0,   0],
+    [  0,   1,   0],
+    [  0,   0,   1],
     [  1,   1,   0],
     [  1,   0,   1],
     [  0,   1,   1],
     [  1,   0,   0],
     [  0,   1,   0]
-
 )
 
-surfaces = (
-    [0,1,2,3],
-    [0,1,4,0],
-    [1,2,4,1],
-    [2,3,4,2],
-    [3,4,0,3]
+quads = (
+    [0,1,2,3]
 )
+
+triangles = (
+    [0,1,4],
+    [1,2,4],
+    [2,3,4],
+    [3,4,0]
+)
+
 
 def Pyramid():
     glBegin(GL_QUADS)
-    for surface in surfaces:
+    x = 0
+    for vertex in quads:
+        glColor3fv(colors[x])
+        glVertex3fv(vertices[vertex])
+        x+=1
+    glEnd()
+
+    glBegin(GL_TRIANGLES)
+    for triangle in triangles:
         x = 0
-        for vertex in surface:
+        for vertex in triangle:
             glColor3fv(colors[x])
             glVertex3fv(vertices[vertex])
             x+=1
@@ -77,15 +88,15 @@ def main():
     pygame.init()
     display = (800,600)
     pygame.display.set_mode(display, DOUBLEBUF|OPENGL)
-    gluPerspective(45, (display[0]/display[1]), 0.1, 50.0)
-    glTranslatef(0.0,0.0, -5)
+    gluPerspective(40, (display[0]/display[1]), 0.1, 50.0)
+    glTranslatef(0,0,-5)
 
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 quit()
-        glRotatef(1, 3, 1, 1)
+        glRotatef(1, 1, 1, 1)
         glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
         Pyramid()
         pygame.display.flip()
