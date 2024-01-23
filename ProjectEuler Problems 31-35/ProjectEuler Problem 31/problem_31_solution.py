@@ -9,5 +9,5 @@ for x in list_of_vals_in_pence:
     list_desc.append([])
     for y in range(1,(int)(200/x)+1):
         list_desc[-1].append(y)
-print(list_desc)
-
+# print(list_desc)
+        

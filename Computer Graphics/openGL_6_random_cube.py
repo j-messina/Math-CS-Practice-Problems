@@ -141,7 +141,7 @@ def main():
         
 
         # slowly move:
-        glTranslatef(0,0,0.5)
+        glTranslatef(0,0,0.01)
 
 
         
